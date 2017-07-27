@@ -1,0 +1,14 @@
+sudo: false
+language: rust
+branches:
+  only:
+  - master
+matrix:
+  fast_finish: false
+  include:
+  - rust: stable
+  - rust: beta
+  - rust: nightly
+env:
+  global:
+  - secure: cyV4ahzhm3R4JFM2WBniBgqVDf7orcFNY+xHwel9FgSQHKYSShAFwY2aSRPK/30pTWOyTbq+zJBLzDh5L0F8/QfZ0krJUqbfTYGNaHrlMI2piPc5xojK2GU3Wb/4jegLMxZTQvtcG6mendGHy/8rQGLm2GeBf1VJx+WXRSpz9CoXEoinz97etXaLQTc5dWaSmCzISRUHUUs4MtLAZOmXY759d8YlY66nF8ZmwSgzcYyegv9SWikAnKby0PLFqRVFqiIkCF9wyth3OXdomDT7OLKY0IuQGduCAnXI4g8h/Lo5gdimY9X15cvWlkGgCJT4ZnCpHJJuAmmUF5HJWasD+KTyJSXjoVZqGueHOEaJqex9JwE2HiUb/FNPCTYtuNXbbJf7Nc8dUvX2RJE4N9Kn3dKzuf3pQhPEnVpQ8YQs+rwlR94+XGb3NGSLyxdGmt9VUwxvdNC1mEujPEj3kmIg7BrYNQDygbvKX00AWC/kjwuCL6fPcEWyw0kj9qDVR2uiEuHjYaCr7Dq6Qgs5gGSzvE4IXzCoi3xpW+zfqYWU7j0KtdxGLyx4X9vu6EbTgDcvwcfaA7pgmgZD5sZxRg8kEAY7NGQbfXne44wcGZrCHnuMLjs968oHq6ZbOt44lKD1oIDwCAjXybeJlLf1H4Oz2HCavKK3KmZEiQQxtkNzW4M=

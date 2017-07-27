@@ -2,6 +2,10 @@
 name = "my-password-cli"
 version = "0.1.0"
 authors = ["debris <marek.kotewicz@gmail.com>"]
+description = "Local password manager"
+license = "MIT"
+keywords = ["password", "manager", "sha3", "local", "cli"]
+homepage = "https://github.com/debris/my-password"
 
 [dependencies]
 my-password = { version = "0.1", path = "../my_password" }

@@ -2,6 +2,10 @@
 name = "my-password"
 version = "0.1.0"
 authors = ["debris <marek.kotewicz@gmail.com>"]
+description = "Local password manager"
+license = "MIT"
+keywords = ["password", "manager", "sha3", "local"]
+homepage = "https://github.com/debris/my-password"
 
 [dependencies]
 tiny-keccak = "1.3"
